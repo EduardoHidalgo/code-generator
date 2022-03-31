@@ -13,14 +13,6 @@
     "ts-build": "npx tsc -p tsconfig.json",
     "post-build": "npx tsc-alias -p tsconfig.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bob-Do-The-Job/violet.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Bob-Do-The-Job/violet/issues"
-  },
-  "homepage": "https://github.com/Bob-Do-The-Job/violet#readme",
   "dependencies": {
     "app-root-path": "^3.0.0",
     "cors": "^2.8.5",

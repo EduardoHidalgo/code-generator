@@ -8,10 +8,10 @@ import { VersionerCLI } from "@/cli/versioner";
 
 const cliIntro = `${Printer.color(
   ["Bright", "FgMagenta"],
-  "Bienvenido a Violet CLI!"
+  "Bienvenido al Code Generator CLI!"
 )}
 
-Este CLI maneja  todos los  procesos de  servidor de Violet, ejecuta subprocesos
+Este CLI maneja  todos los  procesos de  servidor del API , ejecuta subprocesos
 de mantenimiento, comunica con otros CLI's con más subprocesos, o ejecuta tareas
 de  servidor que  completan  operaciones  de  desarrollo. La  lista de  procesos 
 disponibles se describe a continuación.
@@ -27,8 +27,8 @@ balanceador de bases de datos, precargar la configuración de las bases de datos
 etc.
 
 ${Printer.color(["Bright", "Underscore"], "Generator")}
-Comunica con el "Generator CLI" el cual permite generar código para "Violet API" 
-de forma automatizada.
+Comunica con el "Generator CLI" el cual permite generar código para el API de 
+forma automatizada.
 
 
 ${Printer.color(["Bright", "Underscore"], "Versioner")}

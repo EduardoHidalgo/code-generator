@@ -16,9 +16,9 @@ import {
 const cliIntro = `
 ${Printer.color(["Bright", "FgMagenta"], "Iniciando el Generator CLI")}
 
-Este CLI es usado para  ejecutar el Generador de  código de Violet. Podrás crear
-de forma automatizada gran parte de código  repetitivo para el API de Violet con
-facilidad. A  continuación se  describen  los tipos  de  generación  soportados.
+Este CLI es usado para  ejecutar el Generador de  código del API. Podrás crear
+de forma automatizada gran parte de código repetitivo para el API con facilidad.
+A continuación se describen los tipos de generación soportados.
 `;
 
 const cliGeneratorTypesList = `${Printer.color(
@@ -30,7 +30,7 @@ un dominio.
 
 ${Printer.color(["Bright", "Underscore"], "Full")}
 Genera  todo el  código de todos los  endpoints que un  dominio  puede  exponer, 
-incluyendo todos los features de Violet.
+incluyendo todos los features del API.
 
 ${Printer.color(["Bright", "Underscore"], "Metadata")}
 Generá el código de un dominio de metadatos. Normalmente este código es un apoyo
